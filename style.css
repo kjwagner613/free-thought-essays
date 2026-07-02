@@ -32,12 +32,20 @@ body {
   margin: 0;
   min-height: 100vh;
 
+  /* background:
+    radial-gradient(circle at 10% 15%, #0c3b4d 0%, #bb6767 65%),
+    linear-gradient(20deg, #52082a 80%, #c20a85 48%, #2d0b64 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+
   background:
-    radial-gradient(circle at 20% 20%, #6c8892 0%, #679fbb 65%),
-    linear-gradient(190deg, #8a4b2f 20%, #a67c6f 48%, #c4d7e0 100%);
+    radial-gradient(circle at 10% 15%, #0011ff 0%, #5405e6 65%),
+    linear-gradient(20deg, #142881 80%, #5405e6 48%, #0011ff  100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 
   font-size: 1.1rem;
   /* Changed from vw to rem for better readability */
@@ -58,9 +66,13 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   padding: 40px;
   border-radius: 15px;
+  background:
+  radial-gradient(circle at center, #FFD93B 0%, #FF9F1C 60%, #FF6F59 100%);
+border-radius: 12px;
+box-shadow: 0 0 15px 5px rgba(255, 159, 28, 0.6);
 
-  background: radial-gradient(circle at 20% 20%, rgba(105, 100, 91, 0.65), rgba(255, 249, 239, 0) 45%),
-    linear-gradient(160deg, #3b4653 0%, #456d92 48%, #886e47 100%);
+  /* background: radial-gradient(circle at 20% 20%, rgba(105, 100, 91, 0.65), rgba(255, 249, 239, 0) 45%),
+    linear-gradient(160deg, #3b4653 0%, #456d92 48%, #886e47 100%); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -68,9 +80,9 @@ body {
 
 }
 
-.content  {
+.content {
   margin-left: 25px;
-  margin-right:  25px;
+  margin-right: 25px;
 
 
 }
@@ -134,7 +146,7 @@ body {
   background-image: url(images/paper-horiz.png);
   background-size: cover;
   background-position: center;
-  
+
   border: 1px solid #000;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
